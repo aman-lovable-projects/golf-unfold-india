@@ -8,35 +8,63 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Golf-themed color system */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 140 8% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 140 8% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 140 8% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Golf green primary palette */
+    --primary: 140 45% 25%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 140 50% 20%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Light golf green secondary */
+    --secondary: 120 25% 95%;
+    --secondary-foreground: 140 45% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted earth tones */
+    --muted: 45 15% 96%;
+    --muted-foreground: 140 5% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent warm earth */
+    --accent: 35 25% 92%;
+    --accent-foreground: 140 45% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 120 15% 88%;
+    --input: 120 15% 88%;
+    --ring: 140 45% 25%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Golf-specific design tokens */
+    --golf-green: 140 45% 25%;
+    --golf-green-light: 140 30% 85%;
+    --golf-green-dark: 140 55% 15%;
+    --fairway-green: 120 40% 35%;
+    --earth-brown: 35 25% 65%;
+    --sand-beige: 45 35% 85%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(140 45% 25%), hsl(120 40% 35%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(120 25% 98%));
+    --gradient-accent: linear-gradient(120deg, hsl(140 30% 85%), hsl(120 25% 95%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(140 45% 25% / 0.1), 0 2px 4px -1px hsl(140 45% 25% / 0.06);
+    --shadow-medium: 0 10px 15px -3px hsl(140 45% 25% / 0.1), 0 4px 6px -2px hsl(140 45% 25% / 0.05);
+    --shadow-large: 0 25px 50px -12px hsl(140 45% 25% / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
