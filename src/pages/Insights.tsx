@@ -239,7 +239,7 @@ const Insights = () => {
               placeholder="Enter your email"
               className="flex-1 px-4 py-2 rounded-md text-foreground bg-white"
             />
-            <Button variant="accent" className="bg-golf-green-dark text-accent-foreground hover:bg-golf-green font-bold border-0">
+            <Button variant="outline-light" className="font-bold">
               Subscribe
             </Button>
           </div>
