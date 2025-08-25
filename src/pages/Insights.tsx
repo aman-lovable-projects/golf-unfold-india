@@ -229,9 +229,9 @@ const Insights = () => {
       {/* Newsletter Signup */}
       <section className="py-16 bg-gradient-hero text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-4">Stay Updated with Golf Insights</h2>
+          <h2 className="text-3xl font-bold mb-4">Stay updated with the latest golf insights, tips, and news</h2>
           <p className="text-xl mb-8 text-white/90">
-            Get the latest articles, trends, and analysis delivered to your inbox
+            Never miss a swing — subscribe now! Get the latest articles, trends, and analysis delivered to your inbox.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
             <input 
@@ -239,7 +239,7 @@ const Insights = () => {
               placeholder="Enter your email"
               className="flex-1 px-4 py-2 rounded-md text-foreground bg-white"
             />
-            <Button variant="outline" className="text-white border-white hover:bg-white hover:text-primary">
+            <Button variant="accent" className="bg-golf-green-dark text-accent-foreground hover:bg-golf-green font-bold border-0">
               Subscribe
             </Button>
           </div>

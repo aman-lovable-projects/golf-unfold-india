@@ -291,7 +291,10 @@ const Community = () => {
             </div>
           </div>
           <div className="text-center mt-8">
-            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-primary">
+            <p className="text-xl mb-6 text-white/90">
+              Golf is better together! Discover how your community works and meet golfers like you. Don't miss out — join our community today!
+            </p>
+            <Button variant="golf" size="lg" className="bg-forest-green text-white hover:bg-forest-green-dark font-bold">
               Join Our Community
             </Button>
           </div>

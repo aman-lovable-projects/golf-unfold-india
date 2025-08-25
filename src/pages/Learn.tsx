@@ -256,11 +256,11 @@ const Learn = () => {
       {/* CTA */}
       <section className="py-16 bg-gradient-hero text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-4">Ready to Play?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to take your first swing?</h2>
           <p className="text-xl mb-6 text-white/90">
-            Find golf courses near you and start your golf journey
+            Explore lessons and tips to build your game. At the end, you can easily find golf courses near you to begin your journey!
           </p>
-          <Button asChild variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-primary">
+          <Button asChild variant="golf" size="lg" className="bg-golf-green text-white hover:bg-golf-green-dark font-bold">
             <a href="/courses">Find Golf Courses</a>
           </Button>
         </div>

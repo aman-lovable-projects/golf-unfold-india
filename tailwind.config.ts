@@ -71,6 +71,10 @@ export default {
 					fairway: 'hsl(var(--fairway-green))',
 					earth: 'hsl(var(--earth-brown))',
 					sand: 'hsl(var(--sand-beige))'
+				},
+				'forest-green': {
+					DEFAULT: 'hsl(var(--forest-green))',
+					dark: 'hsl(var(--forest-green-dark))'
 				}
 			},
 			backgroundImage: {
