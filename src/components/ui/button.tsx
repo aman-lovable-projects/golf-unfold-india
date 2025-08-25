@@ -21,6 +21,7 @@ const buttonVariants = cva(
         hero: "bg-gradient-hero text-primary-foreground hover:shadow-large transform hover:scale-105 transition-bounce font-semibold",
         golf: "bg-golf-green text-primary-foreground hover:bg-golf-green-dark transition-smooth shadow-soft hover:shadow-medium",
         accent: "bg-gradient-accent text-accent-foreground hover:shadow-medium transition-smooth border border-accent",
+        "outline-light": "bg-white/10 text-white border border-white/30 hover:bg-white hover:text-primary transition-smooth backdrop-blur-sm",
       },
       size: {
         default: "h-10 px-4 py-2",

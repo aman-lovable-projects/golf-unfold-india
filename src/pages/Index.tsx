@@ -138,13 +138,13 @@ const Index = () => {
             Join thousands of Indians discovering the joy of golf. From complete beginners to aspiring professionals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-primary">
+            <Button asChild variant="outline-light" size="lg">
               <Link to="/learn">
                 <Target className="mr-2 h-5 w-5" />
                 Begin Learning
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-primary">
+            <Button asChild variant="outline-light" size="lg">
               <Link to="/community">
                 <Users className="mr-2 h-5 w-5" />
                 Join Community
