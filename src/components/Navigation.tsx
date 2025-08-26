@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, ChevronDown } from "lucide-react";
-import { GolfIcon } from "@/components/GolfIcon";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -35,8 +34,8 @@ export const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center">
-              <GolfIcon className="text-white" size={18} />
+            <div className="w-8 h-8 flex items-center justify-center">
+              <img src="/lovable-uploads/a0b04a3e-ece1-4440-9f91-ecd4330f4841.png" alt="Golf India Logo" className="w-6 h-6 object-contain" />
             </div>
             <span className="font-bold text-xl text-foreground">Golf India</span>
           </Link>
